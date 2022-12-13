@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="logo" />
+                </div>
+                <div class="search">
+                    <div class="box">
+                        <div class="cat">
+                            <p>All categories</p>
+                            <i class="fa-solid fa-angle-down" id="downicon"></i>
+                        </div>
+                        <span>|</span>
+                        <form action="" id="form1" style="border: 1px solid white">
+                            <input type="text" placeholder="Search for items" style="border: 0 solid tra" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </form>
+                    </div>
+                    <div id="newcat"
+                        style="padding-left:1rem;line-height: 0.9rem;padding-top: 2rem;position: absolute;">
+                        <input type="text" style="width:10rem ;height: 2rem;">
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">All Categories</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Milks and Dairies</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Wines & Alcohol</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Clothing & Beauty</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">All Categories</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Milks and Dairies</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Wines & Alcohol</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;">Clothing & Beauty</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-code-compare" style="font-size: 1.5rem">
+                            </i><sup>3</sup>
+                            <a href="#">Compare</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-heart" style="font-size: 1.5rem"> </i><sup>6</sup>
+                            <a href="#">Wishlist</a>
+                        </li>
+                        <li id="cart">
+                            <i class="fa-solid fa-cart-shopping" style="font-size: 1.5rem">
+                            </i><sup>2</sup>
+                            <a href="#">Cart</a>
+                        </li>
+                        <li id="accounticon">
+                            <i class="fa-solid fa-user-large" style="font-size: 1.5rem">
+                            </i>
+                            <a href="#">Account</a>
+                        </li>
+                    </ul>
+                    <div class="account" style="padding-left:26rem;position: absolute;">
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;"> <i class="fa-solid fa-user-large"
+                                style="font-size: 1rem">
+                            </i> My Account</p>
+
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;"> <i class="fa-solid fa-house"
+                                style="font-size: 1rem"> </i> My Voucher</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;"> <i class="fa-regular fa-heart"
+                                style="font-size: 1rem"> </i> My Wishlist</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;"> <i class="fa-solid fa-sliders"
+                                style="font-size: 1rem"> </i> Setting</p>
+                        <p style="width:10rem;height: 2rem;padding-top: 1rem;"><i class="fa-solid fa-right-from-bracket"
+                                style="font-size: 1rem"></i> Sign out</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-3.jpg" alt="">
+                    <div class="info">
+                        <p>Daisy Casual Bag</p>
+                        <p>1 × $800.00</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-2.jpg" alt="">
+                    <div class="info">
+                        <p>Daisy Casual Bag</p>
+                        <p>1 × $3200.00</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p style="color:grey">Total Price</p>
+                    <p>4000$</p>
+                </div>
+                <div class="buttons">
+                    <button id="btn1">View Cart</button>
+                    <button id="btn2">Checkout</button>
+                </div>
+            </div>
+            <div class="navbar2">
+                <div class="browse" style="position: relative;"><i class="fa-solid fa-table-cells-large"
+                        style="padding-top: 1.1rem;margin-left:2rem"></i>
+                    <p style="margin-top: 0.9rem;padding-left: 0.1rem;">Browse All Categories</p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li><a href="">Deals</a></li>
+                        <li id="homeicon"><a href="" style="color: green;">Home</a></li> <i
+                            class="fa-solid fa-angle-down" id="downicon" style="margin-top:-1.2rem;"></i>
+                        <li><a href="">About</a></li>
+                        <li id="shopicon"><a href="">Shop</a></li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i>
+                        <li><a href="">Vendors</a></li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i>
+                        <li><a href="">Mega menu</a></li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i>
+                        <li><a href="">Blog</a></li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i>
+                        <li><a href="">Pages</a></li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="call" style="display:flex;">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg"
+                        alt="">
+                    <div class="right">
+                        <p style="color:green;font-size: 1.7rem;line-height: 0.2rem;">1900-888</p>
+                        <p style="line-height: 0.2rem;">24/7 Support</p>
+                        <p style="line-height: 0.2rem;">Center</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="browcat">
+            <div class="row1">
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+                <div class="div1">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                        width="25%" alt="">
+                    <p>Milk and Dairies</p>
+                </div>
+            </div>
+        </div>
+        <div class="home" style="padding-left:28.6%;margin-top:-3.6rem;">
+            <p>Home1</p>
+            <p>Home2</p>
+            <p>Home3</p>
+            <p>Home4</p>
+            <p>Home5</p>
+        </div>
+        <div class="shop" style="padding-left: 39%;margin-top: -3rem;">
+            <p> Shop Grid – Right Sidebar</p>
+            <p> Shop Grid – Left Sidebar</p>
+            <p> Shop Grid – Right Sidebar</p>
+            <p> Shop Grid – Left Sidebar</p>
+            <p> Shop Grid – Right Sidebar</p>
+            <p id="second"> Shop Grid – Left Sidebar<i class="fa-solid fa-angle-down" id="downicon" style="margin-top:-2rem;"></i></p>
+        </div>
+        <div class="shop2" style="padding-left:52%;margin-top: -2rem;">
+            <p> Shop Grid – Right Sidebar</p>
+            <p> Shop Grid – Left Sidebar</p>
+            <p> Shop Grid – Right Sidebar</p>
+            <p> Shop Grid – Left Sidebar</p>
+            <p> Shop Grid – Right Sidebar</p>
+        </div> 
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
