@@ -1,0 +1,480 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.burgermenu{
+    display: none;
+}
+.box{
+    display: flex;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.list ul li{
+    padding-left: 2.5rem;
+}
+.list ul li a{
+    color: black;
+    text-decoration: none;
+}
+.box p{
+    font-weight: 800;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
+
+}
+.box form i{
+    font-weight: 800;
+    padding-left: 30rem;
+    font-size: 1.6rem;
+}
+.cat{
+    cursor: pointer;
+    display: flex;
+}
+.search{
+    padding-left: 2rem;
+}
+.box span{
+    padding-top: 0.5rem;
+    padding-left: 0.4rem;
+    font-size: 2rem;
+}
+.box{
+    box-sizing: border-box;
+    border: 2px solid #9DDBC9;
+    width: 57rem;
+    height: 4rem;
+}
+.box form input:focus{
+    outline: none;
+    border: hidden;
+}
+.box form{
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+}
+.box form input{
+    border: hidden;
+}
+#newcat p{
+color: grey;
+}
+#newcat{
+    display: none;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 1;
+    height: 15rem;
+    width: 12.7rem;
+    color: whitesmoke;
+    position: absolute;
+}
+#newcat input{
+    border-color:#9DDBC9 ;
+}
+.catclass{
+    display: block;
+}
+.catclass1 p:hover{
+    background-color: #9DDBC9;
+}
+.account{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 15rem;
+    background-color: white;
+}
+.class2{
+    display: block;
+}
+.class2 p{
+    color: grey;
+}
+.class2 p:hover{
+    color: #9DDBC9;
+}
+.list2{
+padding-left: 1rem;
+}
+.list2 ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.list2 ul li{
+    padding-left: 2.5rem;
+}
+.list2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navbar2{
+    display: flex;
+    padding-left: 5%;
+
+}
+.browse{
+    box-sizing: border-box;
+    border: 1px solid green;
+    width: 16rem;
+    height: 3rem;
+    display: flex;
+    background-color: green;
+    position: absolute;
+    cursor: pointer;
+}
+.browse p{
+    color: white;
+}
+.browse i{
+    color: white;
+}
+.call{
+    padding-left: 8rem;
+}
+.card{
+    margin-left: 80%;
+    margin-top: -1rem;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 27rem;
+    z-index:1;
+}
+.product1{
+    display: flex;
+}
+.product1 img{
+    width: 30%;
+}
+.info{
+    padding-left: 2rem;
+}
+.product2{
+    display: flex;
+}
+.product2 img{
+    width: 30%;
+}
+.info{
+    padding-left: 2rem;
+}
+#btn1{
+    width: 7rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+#btn2{
+    margin-left: 5rem;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+.browcat{
+    border: 1px solid grey;
+    width: 30rem;
+    height: auto;
+    display: none;
+    position: absolute;
+    z-index:1;
+}
+.div1{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 14rem;
+    height: 4.5rem;
+    margin: 1rem;
+}
+.div1 p{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 0.4rem;
+}
+.row1{
+    display: flex;
+}
+.cardclass{
+    display: block;
+}
+.browseclass{
+    display: block;
+}
+.browseclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+.home{
+    display: none;
+    box-sizing: border-box;
+}
+.homeclass{
+    display: block;
+
+}
+.homeclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+.shop{
+    display: none;
+}
+.shopclass{
+    display: block;
+}
+.shopclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+.shop2{
+    display: none;
+}
+.shop2class{
+    display: block;
+}
+.shop2class p:hover{
+    color: green;
+    cursor: pointer;
+}
+.shop3{
+    display: none;
+}
+.shop3class{
+    display: block;
+}
+.shop3class p:hover{
+    color: green;
+    cursor: pointer;
+}
+.vendors{
+    display: none;
+}
+.vendorclass{
+    display: block;
+}
+.vendorclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+.left{
+    margin: 1.2rem;
+}
+.left ul{
+    padding-top: 1rem;
+}
+.megamenu img{
+    padding-left: 9rem;
+}
+.megamenu{
+    margin-left: 18%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    width: 80rem;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    display: none;
+}
+.megamenuclass{
+    display: flex;
+}
+.megamenuclass{
+    display: block;
+}
+.megamenuclass li:hover{
+    color: green;
+    cursor: pointer;
+}
+.blog{
+    display: none;
+}
+
+.blogclass{
+    display: block;
+}
+.blogclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+.pages{
+    display: none;
+}
+
+.pagesclass{
+    display: block;
+}
+.pagesclass p:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.allcatclass{
+    display: block;
+}
+.mobil{
+    display: none;
+}
+@media only screen and (max-width: 390px) {
+    .navbar{
+        padding: 0!important;
+        margin: 0!important;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    .burgermenu{
+        display:flex!important ;
+        margin-left: 1rem;
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+    .logo{
+        padding-top: 1.7rem;
+    }
+    .logo img{
+        width: 80%;
+        margin-left: 3.3rem;
+    }
+    #compare{
+        display: none;
+    }
+    #accounticon{
+        display: none;
+    }
+    .browse{
+        display: none;
+    }
+    .box{
+        display:none;
+    }
+    .call img{
+        display: none;
+    }
+    .list{
+        padding: 0!important;
+        margin: 0!important;
+    }
+    .list ul{
+        display: flex;
+        padding: 0!important;
+        margin: 0!important;
+        flex-wrap: nowrap;
+    }
+    .list ul li{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.5rem;
+        margin-right: 0.3rem;
+    }
+    #wishlist i{
+
+        font-size: 0.7rem;
+        margin-top: 1.9rem;
+    }
+    sup{
+        display: none;
+    }
+    #cart i{
+        margin-top: 2rem;
+        font-size: 0.7rem;
+    }
+    .navbar2{
+        display: none;
+    }
+    #wishlist a{
+        display: none;
+    }
+    #cart a{
+        display: none;
+    }
+    .headingmob{
+        justify-content: space-evenly;
+    }
+    .headingmob img{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 40%;
+    }
+    .iconmob{
+        margin-top: -2rem;
+    }
+    .headingmob i{
+        font-size: 1.5rem;
+        margin-left: 21rem;
+        color: #9DDBC9;
+    }
+    .boxmob{
+            margin-left: 2.2rem;
+            margin-top: 3rem;
+            box-sizing: border-box;
+            border: 2px solid #9DDBC9;
+            width: 19rem;
+            height: 2.9rem;
+            border-radius: 0.4rem;
+            background-color: whitesmoke;
+    }
+    .boxmob form input:focus{
+        outline: none;
+        border: hidden;
+    }
+    .boxmob form input{
+        background-color: whitesmoke;
+        border-color:#9DDBC9;
+    }
+    hr{
+        width: 100%;
+        margin-top: 1rem;
+        color: wheat;
+    }
+    .boxmob form{
+        padding-top: 0.4rem;
+        padding-left: 3rem;
+        border-color: #9DDBC9;
+        color: #9DDBC9;
+    
+    }
+    .boxmob form input{
+        border: hidden;
+    }
+    .boxmob i{
+        padding-left: 3rem;
+    }
+    .homemob{
+        margin-top: 1rem;
+    }
+    .homemob h4{
+        margin-top: 2rem;
+        padding-left: 0.7rem;
+    }
+    .homemob i{
+        margin-left: 16rem;
+        margin-top: 2.5rem;
+    }
+    .homemobclass{
+        display: none;
+    }
+    .homemobclass p:hover{
+        color: #9DDBC9;
+    }
+
+}
