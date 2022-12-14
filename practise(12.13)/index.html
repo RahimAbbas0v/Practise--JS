@@ -19,24 +19,27 @@
     <header>
         <nav>
             <div class="navbar">
+                <div class="burgermenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <div class="logo">
                     <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="logo" />
                 </div>
                 <div class="search">
                     <div class="box">
-                        <div class="cat">
-                            <p>All categories</p>
-                            <i class="fa-solid fa-angle-down" id="downicon"></i>
-                        </div>
+                        <p class="cat">All categories<i class="fa-solid fa-angle-down" style="margin-top: -0,1rem;"></i>
+                        </p>
+
                         <span>|</span>
                         <form action="" id="form1" style="border: 1px solid white">
                             <input type="text" placeholder="Search for items" style="border: 0 solid tra" />
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </form>
                     </div>
-                    <div id="newcat"
-                        style="padding-left:1rem;line-height: 0.9rem;padding-top: 2rem;position: absolute;">
-                        <input type="text" style="width:10rem ;height: 2rem;">
+                    <div id="newcat" style="padding-left:1rem;line-height: 0.9rem;padding-top: 2rem;">
+                        <form action="">
+                            <input type="text" style="width:10rem ;height: 2rem;">
+                        </form>
                         <p style="width:10rem;height: 2rem;padding-top: 1rem;">All Categories</p>
                         <p style="width:10rem;height: 2rem;padding-top: 1rem;">Milks and Dairies</p>
                         <p style="width:10rem;height: 2rem;padding-top: 1rem;">Wines & Alcohol</p>
@@ -49,12 +52,12 @@
                 </div>
                 <div class="list">
                     <ul>
-                        <li>
+                        <li id="compare">
                             <i class="fa-solid fa-code-compare" style="font-size: 1.5rem">
                             </i><sup>3</sup>
                             <a href="#">Compare</a>
                         </li>
-                        <li>
+                        <li id="wishlist">
                             <i class="fa-regular fa-heart" style="font-size: 1.5rem"> </i><sup>6</sup>
                             <a href="#">Wishlist</a>
                         </li>
@@ -69,7 +72,7 @@
                             <a href="#">Account</a>
                         </li>
                     </ul>
-                    <div class="account" style="padding-left:26rem;position: absolute;">
+                    <div class="account" style="margin-left:26rem;position: absolute;">
                         <p style="width:10rem;height: 2rem;padding-top: 1rem;"> <i class="fa-solid fa-user-large"
                                 style="font-size: 1rem">
                             </i> My Account</p>
@@ -85,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" style="z-index: 1;">
                 <div class="product1">
                     <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-3.jpg" alt="">
                     <div class="info">
@@ -117,28 +120,28 @@
                 <div class="list2">
                     <ul>
                         <li><a href="">Deals</a></li>
-                        <li id="homeicon"><a href="" style="color: green;">Home</a></li> <i
-                            class="fa-solid fa-angle-down" id="downicon" style="margin-top:-1.2rem;"></i>
+                        <li id="homeicon"><a href="" style="color: green;">Home<i class="fa-solid fa-angle-down"
+                                    id="downicon" style="margin-top:-1.2rem;"></i></a></li>
                         <li><a href="">About</a></li>
-                        <li id="shopicon"><a href="">Shop</a></li> <i class="fa-solid fa-angle-down" id="downicon"
-                            style="margin-top:-1.2rem;"></i>
-                        <li><a href="">Vendors</a></li> <i class="fa-solid fa-angle-down" id="downicon"
-                            style="margin-top:-1.2rem;"></i>
-                        <li><a href="">Mega menu</a></li> <i class="fa-solid fa-angle-down" id="downicon"
-                            style="margin-top:-1.2rem;"></i>
-                        <li><a href="">Blog</a></li> <i class="fa-solid fa-angle-down" id="downicon"
-                            style="margin-top:-1.2rem;"></i>
-                        <li><a href="">Pages</a></li> <i class="fa-solid fa-angle-down" id="downicon"
-                            style="margin-top:-1.2rem;"></i>
+                        <li id="shopicon"><a href="">Shop<i class="fa-solid fa-angle-down" id="downicon"
+                                    style="margin-top:-1.2rem;"></i></a></li>
+                        <li><a href="" id="vendoricon">Vendors<i class="fa-solid fa-angle-down" id="downicon"
+                                    style="margin-top:-1.2rem;"></i></a></li>
+                        <li><a href="" id="megamenu">Mega menu</li> <i class="fa-solid fa-angle-down" id="downicon"
+                            style="margin-top:-1.2rem;"></i></a>
+                        <li><a href="" id="blog">Blog<i class="fa-solid fa-angle-down" id="downicon"
+                                    style="margin-top:-1.2rem;"></i></a></li>
+                        <li><a href="" id="pages">Pages<i class="fa-solid fa-angle-down" id="downicon"
+                                    style="margin-top:-1.2rem;"></i></a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
                 <div class="call" style="display:flex;">
                     <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg"
                         alt="">
-                    <div class="right">
-                        <p style="color:green;font-size: 1.7rem;line-height: 0.2rem;">1900-888</p>
-                        <p style="line-height: 0.2rem;">24/7 Support</p>
+                    <div class="right" style="padding-left: 1rem">
+                        <p style="color:green;font-size: 1.3rem;line-height: 0.2rem;">1900-888</p>
+                        <p style="line-height: 0.2rem;font-size: 0.7rem;">24/7 Support</p>
                         <p style="line-height: 0.2rem;">Center</p>
                     </div>
                 </div>
@@ -205,9 +208,12 @@
             <p> Shop Grid – Right Sidebar</p>
             <p> Shop Grid – Left Sidebar</p>
             <p> Shop Grid – Right Sidebar</p>
+            <p id="second"> Shop Grid – Left Sidebar<i class="fa-solid fa-angle-down" id="downicon"
+                    style="margin-top:-2rem;"></i></p>
+
             <p> Shop Grid – Left Sidebar</p>
-            <p> Shop Grid – Right Sidebar</p>
-            <p id="second"> Shop Grid – Left Sidebar<i class="fa-solid fa-angle-down" id="downicon" style="margin-top:-2rem;"></i></p>
+            <p id="third"> Shop Grid – Right Sidebar<i class="fa-solid fa-angle-down" id="downicon"
+                    style="margin-top:-2rem;"></i></p>
         </div>
         <div class="shop2" style="padding-left:52%;margin-top: -2rem;">
             <p> Shop Grid – Right Sidebar</p>
@@ -215,8 +221,139 @@
             <p> Shop Grid – Right Sidebar</p>
             <p> Shop Grid – Left Sidebar</p>
             <p> Shop Grid – Right Sidebar</p>
-        </div> 
+        </div>
+        <div class="shop3" style="padding-left:52%;margin-top: -2rem;">
+            <p> Shop – Filter</p>
+            <p> Shop – Wishlist</p>
+            <p> Shop – Filter</p>
+            <p> Shop – Wishlist</p>
+            <p> Shop – Filter</p>
+            <p> Shop – Wishlist</p>
+        </div>
+        <div class="vendors" style="padding-left:44%;margin-top: -3rem;">
+            <p> Vendor</p>
+            <p> Vendor details</p>
+            <p> Vendor details1</p>
+            <p> Vendor details2</p>
+            <p> Vendor details3</p>
+        </div>
+        <div class="megamenu">
+            <div style="display: flex;">
+                <div class="left">
+                    <h3>Fruit & Vegetables</h3>
+                    <ul style="list-style: none;">
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+
+                    </ul>
+                </div>
+                <div class="left">
+                    <h3>Fruit & Vegetables</h3>
+                    <ul style="list-style: none;">
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+
+                    </ul>
+                </div>
+                <div class="left">
+                    <h3>Fruit & Vegetables</h3>
+                    <ul style="list-style: none;">
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+                        <li>Meat&Poultry</li>
+
+                    </ul>
+                </div>
+                <div class="img">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-menu.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="blog" style="padding-left:58%;margin-top: -3rem;">
+            <p> Blog Category Grid</p>
+            <p> Blog Category Grid</p>
+            <p> Blog Category Grid</p>
+            <p> Blog Category Grid</p>
+            <p>Blog Category Grid</p>
+        </div>
+        <div class="pages" style="padding-left:63%;margin-top: -3rem;">
+            <p> About Us</p>
+            <p>Contact/p>
+            <p> My Account</p>
+            <p> Login</p>
+            <p>Register</p>
+            <p>Error 404</p>
+        </div>
+        <div class="mobil">
+            <nav>
+                <div class="navbarmobil">
+                    <div class="headingmob">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="">
+                        <div class="iconmob">
+                            <i class="fa-solid fa-circle-xmark" id="xbtn"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="boxmob">
+                        <form action="" id="formmob" style="border: 1px solid white">
+                            <input type="text" placeholder="Search for items" style="border: 0 solid tra" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </form>
+                    </div>
+                    <div class="listmob">
+                        <div class="homemob" style="display: flex;" id="homemob" >
+                            <h4>Home</h4><i class="fa-solid fa-angle-down" style="margin-left: 18.3rem;" ></i>
+                        </div>
+                        <div class="homem" style="padding-left:10rem;" id="homeinfo">
+                            <p>Home1</p>
+                            <p>Home2</p>
+                            <p>Home3</p>
+                            <p>Home4</p>
+                            <p>Home5</p>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;" id="shopmob">
+                            <h4>Shop</h4><i class="fa-solid fa-angle-down" style="margin-left: 18.7rem"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;">
+                            <h4>Vendors</h4><i class="fa-solid fa-angle-down" style="margin-left: 17.2rem"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;">
+                            <h4>Menu</h4><i class="fa-solid fa-angle-down" style="margin-left: 18.4rem"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;">
+                            <h4>Blog</h4><i class="fa-solid fa-angle-down" style="margin-left: 18.8rem"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;">
+                            <h4>Pages</h4><i class="fa-solid fa-angle-down" style="margin-left: 17.9rem"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                        <div class="homemob" style="display: flex;margin-top:-1rem;">
+                            <h4>Language</h4><i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <hr style="margin-top:-0.4rem;">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
     </header>
+
 
     <script src="script.js"></script>
 </body>
